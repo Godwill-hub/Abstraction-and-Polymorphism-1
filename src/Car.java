@@ -5,7 +5,7 @@ public class Car extends Vehicle {
         super(brand, model, year);
         this.numberOfDoors = numberOfDoors;
     }
-
+    
     @Override
     public void displayDetails() {
         System.out.println("Car Details:");
