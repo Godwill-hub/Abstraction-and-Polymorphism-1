@@ -5,7 +5,7 @@ public class Truck extends Vehicle{
         super(brand, model, year);
         this.payloadCapacity = payloadCapacity;
     }
-
+  
     @Override
     public void displayDetails() {
         System.out.println("Truck Details:");
